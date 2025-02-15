@@ -31,7 +31,7 @@
             const formData = new FormData(event.target);
             const data = Object.fromEntries(formData.entries());
 
-            fetch('YOUR_GOOGLE_APPS_SCRIPT_URL', {
+            fetch('https://script.google.com/macros/s/AKfycbx8An0AF7S_NOXb1uD9JdHOq9tGzXd_xgUAeWiGNhmv8MGk88Ca-WoXxdM8AxiGomSLig/exec', {
                 method: 'POST',
                 body: JSON.stringify(data),
                 headers: {
